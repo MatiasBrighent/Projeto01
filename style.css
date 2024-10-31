@@ -3,3 +3,125 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #0c0505;
+    color: #ccc;
+}
+
+section .container{
+    background-color: #0c0303;
+}
+
+
+
+header,section h1,
+section h2{
+    font-family: "Grenze Gotisch", serif;
+    font-weight: bolder;
+}
+
+body{
+    font-family: "Federo", sans-serif;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin:0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container{
+    background: linear-gradient(to right, #0a0101, #971b1b, #c4b211);
+    color: #ccc;
+    padding-top: 8px;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+}
+
+header h1{
+    font-size: 46px;
+    margin-left: 16px;
+}
+
+.container nav li{
+    display: inline;
+}
+
+.container nav li a{
+    color: #ccc;
+    text-decoration: none;
+    margin-right: 16px;
+    font-size: 32px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section h2 {
+    font-size:36px;
+}
+
+.container p{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.container li img{
+    height: 80px;
+    width: auto;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.container ul{
+    margin-top: 16px;
+}
+
+.container li{
+    display: inline;
+    margin-top: 16px;
+    margin: 30px;
+}
+
+.container a{
+    text-decoration: none;
+}
+
+.container nav li a:hover{
+    text-decoration:underline;
+}
+
+#brands-together{
+    width: 640px;
+    height: 480px;
+    margin-top: 24px;
+    margin-right: 24px;
+}
+
+.brands img{
+    width: auto;
+    height: 580px;
+    margin-right: 24px;
+}
+
+.brands h1{
+    font-size: 80px;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+#section-audi img{
+    width: 640px;
+    height: 480px;
+}
+
