@@ -1,0 +1,28 @@
+{
+  "name": "projeto01",
+  "version": "1.0.0",
+  "description": "![Static Badge](https://img.shields.io/badge/Status-conclu%C3%ADdo-green?style=plastic)\r ![Static Badge](https://img.shields.io/badge/Release-October-pistache?style=plastic)\r ![Static Badge](https://img.shields.io/badge/License-MIT%20license-orange?style=plastic)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatiasBrighent/Projeto01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatiasBrighent/Projeto01/issues"
+  },
+  "homepage": "https://github.com/MatiasBrighent/Projeto01#readme",
+  "dependencies": {
+    "gulp": "^5.0.1"
+  },
+  "devDependencies": {
+    "gulp-clean-css": "^4.3.0",
+    "gulp-imagemin": "^9.2.0",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.97.3"
+  }
+}
