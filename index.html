@@ -11,26 +11,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Federo&family=Grenze+Gotisch:wght@100..900&family=Oi&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-            <div class="container">
-                <h1>Trindade Alemã</h1>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#about">Sobre a página</a>
+    <header class="header">
+            <div class="header__container">
+                <h1 class="header__title title">Trindade Alemã</h1>
+                <nav >
+                    <ul class="header__nav">
+                        <li class="header__nav__itens">
+                            <a class="title--small link" href="#about">Sobre a página</a>
                         </li>
-                        <li>
-                            <a href="#contact">Contato</a>
+                        <li class="header__nav__itens">
+                            <a class="title--small link" href="#contact">Contato</a>
                         </li>
                     </ul>
                 </nav>
             </div>
     </header>
     <section id="about">
-        <div class="container">
-            <img id="brands-together" src="./images/cars-images/foto-carros-juntos.jpg" alt="Foto de 3 carros, uma Mercedes-benz 190 evo 2 preta, uma BMW M3 E30 vermelha e uma Audi quattro V8 prata">
-            <div>
-                <h2>Origem da Trindade Alemã</h2>
+        <div class="about">
+            <img id="brands-together" src="./src/images/cars-images/foto-carros-juntos.jpg" alt="Foto de 3 carros, uma Mercedes-benz 190 evo 2 preta, uma BMW M3 E30 vermelha e uma Audi quattro V8 prata">
+            <div class="about__content">
+                <h2 class="title--small">Origem da Trindade Alemã</h2>
                 <p>
                     A "Trindade Alemã" é um termo popular dos fãs do automobilismo ao redor do mundo para se referir ao trio de marcas alemas Audi, BMW e Mercedes-benz. Os fãs deram esse apelido para as marcas devido aos seus grandes feitos e historico em competições, muitas vezes sendo dominantes sobre outros competidores.
                     Contando com veículos criados especialmente para as competições, ou veículos de rua com modificações para terem um desempenho ainda melhor. modificações estas que são feitas através de suas divisões esportivas, sendo elas a divisão MSport da BMW, a divisão RS da Audi e a divisão AMG da Mercedes-benz.
@@ -43,20 +43,20 @@
                     Esses três modelos que são mostrados na foto ao lado(BMW vermelha, Mercedes-benz preta e Audi prata), destacaram durante os anos 80 com sua perfomance e tecnologias, como dito anteriormente a BMW e Mercedes-benz disputaram o título de campeão da "DTM" por vários anos seguidos até a Mercedes conseguuir ganhar em 1992.
                     Vamos acompanhar um pouco dessa trajetória.
                 </p>
-                <ul>
+                <ul class="about__logo">
                     <li>
                         <a href="#section-BMW" title="Veja mais sobre a BMW">
-                            <img src="./images/logos/BMW.png" alt="Logo da BMW">
+                            <img src="./src/images/logos/BMW.png" alt="Logo da BMW">
                         </a>
                     </li>
                     <li>
                         <a href="#section-mercedes" title="Veja mais sobre a Mercedes-benz">
-                            <img src="./images/logos/mercedes.png" alt="Logo da Mercedes-benz">
+                            <img src="./src/images/logos/mercedes.png" alt="Logo da Mercedes-benz">
                         </a>
                     </li>
                     <li>
                         <a href="#section-audi" title="Veja mais sobre a Audi">
-                            <img src="./images/logos/audi.png" alt="Logo da Audi">
+                            <img src="./src/images/logos/audi.png" alt="Logo da Audi">
                         </a>
                     </li>
                 </ul>
@@ -64,11 +64,11 @@
         </div>
     </section>
     <section id="section-BMW" class="brands">
-        <h1 class="container" >BMW</h1>
+        <h1 class="container title--big" >BMW</h1>
         <div class="container">
-            <img src="./images/cars-images/bmw-e30.jpg" alt="Foto de uma BMW M3 E30">
+            <img src="./src/images/cars-images/bmw-e30.jpg" alt="Foto de uma BMW M3 E30">
             <div >
-                <h2>História</h2>
+                <h2 class="title--small">História</h2>
                 <p>
                     A BMW (Bayerische Motoren Werke AG) foi fundada em 7 de março de 1916 em Munique, Alemanha, inicialmente como fabricante de motores de avião. Após a Primeira Guerra Mundial, a empresa começou a produzir automóveis e motocicletas, ganhando destaque na indústria automobilística.
                     A BMW é conhecida por sua inovação tecnológica e design icônico, especialmente no segmento de veículos esportivos.
@@ -90,11 +90,11 @@
         </div>
     </section>
     <section id="section-mercedes" class="brands">
-        <h1 class="container">Mercedes-benz</h1>
+        <h1 class="container title--big">Mercedes-benz</h1>
         <div class="container">
-            <img  src="./images/cars-images/190e.jpg" alt="Foto de uma Mercedes-benz 190 evo 2">
+            <img  src="./src/images/cars-images/190e.jpg" alt="Foto de uma Mercedes-benz 190 evo 2">
             <div>
-                <h2>História</h2>
+                <h2 class="title--small">História</h2>
                 <p>
                     A Mercedes-Benz foi fundada em 1926, originando-se da fusão da Benz & Cie. e da Daimler-Motoren-Gesellschaft.
                     A sede da Mercedes-Benz está localizada em Stuttgart, Alemanha
@@ -116,11 +116,11 @@
         </div>
     </section>
     <section id="section-audi" class="brands">
-        <h1 class="container">Audi</h1>
+        <h1 class="container title--big">Audi</h1>
         <div class="container">
-            <img src="./images/cars-images/quattro.jpg" alt="Foto de uma Audi Quattro">
+            <img src="./src/images/cars-images/quattro.jpg" alt="Foto de uma Audi Quattro">
             <div>
-                <h2>História</h2>
+                <h2 class="title--small">História</h2>
                 <p>
                     A Audi é uma montadora alemã conhecida por sua tecnologia avançada, design sofisticado e inovação em engenharia.
                     A marca pertence ao grupo Volkswagen e tem uma longa história de sucesso no automobilismo.
@@ -147,10 +147,10 @@
     </section>
     <section id="contact">
         <div class="container">
-            <h2>Contato</h2>
+            <h1 class="title--big">Contato</h2>
             <div class="contact-methods">
                 <div>
-                    <h3>Fale conosco</h3>
+                    <h3 class="title--small">Fale conosco</h3>
                     <form>
                         <input type="text" placeholder="Seu nome" required>
                         <input type="email" placeholder="E-mail" required>
@@ -160,32 +160,32 @@
                     </form>
                 </div>
                 <div>
-                    <h3>Nos acompanhe</h3>
+                    <h3 class="title--small">Nos acompanhe</h3>
                     <ul class="social-links">
                         <li>
                             <a href="#" title="Siga-nos no Instagram ">
-                                <img src="./images/social/instagram.png" alt="Logo do Instagram">
+                                <img src="./src/images/social/instagram.png" alt="Logo do Instagram">
                             </a>
                         </li>
                         <li>
                             <a href="#" title="Siga-nos no Facebook">
-                                <img src="./images/social/facebook.png" alt="Logo do Facebook">
+                                <img src="./src/images/social/facebook.png" alt="Logo do Facebook">
                             </a>
                         </li>
                         <li>
                             <a href="#" title="Siga-nos no X">
-                                <img src="./images/social/twitter.jpg" alt="Logo do X">
+                                <img src="./src/images/social/twitter.jpg" alt="Logo do X">
                             </a>
                         </li>
                         <li>
                             <a href="#" title="Siga-nos no">
-                                <img src="./images/social/discord.jpg" alt="Nosso servidor do Discord">
+                                <img src="./src/images/social/discord.jpg" alt="Nosso servidor do Discord">
                             </a>
                         </li>
                     </ul>
                 </div>
                 <div>
-                    <h3>Venha até nós</h3>
+                    <h3 class="title--small">Venha até nós</h3>
                     <p>
                         Porscheplatz 1, 70435 Stuttgart, Alemanha
                     </p>
@@ -201,5 +201,6 @@
             &copy; Trindade Alemã - Página feita apenas com fins de aprendizagem de programação por Matias H Correia Brighente em 2024
         </div>
     </footer>
+    <script src="./src/scripts/main.js"></script>
 </body>
 </html>

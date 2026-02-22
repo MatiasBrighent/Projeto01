@@ -1,0 +1,34 @@
+@use 'variaveis';
+
+.header{
+    position:sticky;
+    top: 0;
+    background: variaveis.$corHeader;
+    z-index: 1;
+
+    &--is-hidden{
+        transform: translateY(-100%);
+        transition: transform 0.3s ease-in-out;
+
+        .header{
+            &__title, &__nav{
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+    }
+
+    &__container{
+        display: flex;
+        justify-content: space-around;
+        align-items:baseline;
+}
+    &__nav{
+        display: flex;
+
+        &__itens{
+            display: inline;
+            padding-left: 16px;
+        }
+    }
+}

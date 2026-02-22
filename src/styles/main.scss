@@ -1,3 +1,73 @@
+@use 'variaveis';
+@use 'header';
+
+@font-face{
+    font-family: 'Grenze';
+    src: url('../../assets/fonts/Grenze-Regular.ttf');
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'Grenze';
+    src: url('../../assets/fonts/Grenze-Bold.ttf');
+    font-weight: 700;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Grenze', serif;
+    list-style: none;
+}
+
 body{
-    background-color: red;
+    background-color: variaveis.$corDeFundo;
+    color: variaveis.$corTexto;
+}
+
+@mixin title($fontSize: 40px){
+    font-size: $fontSize;
+    font-weight: 700;
+}
+
+.title--big{
+    @include title(56px);
+
+}
+.title{
+    @include title;
+    color: rgba(240, 248, 255, 0.904);
+}
+.title--small{
+    @include title(32px);
+}
+
+.link{
+    color: #1f3ec9ef;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+
+.about{
+
+    &__logo{
+        display: flex;
+        justify-content: space-around;
+
+        img{
+            width: 64px;
+            height: 64px;
+        }
+    }
+}
+
+.social-links li a img{
+    width: 32px;
+    height: 32px;
 }
