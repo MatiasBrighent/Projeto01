@@ -1,6 +1,7 @@
 @use 'variaveis';
 @use 'header';
 @use 'about';
+@use 'brands';
 
 @font-face{
     font-family: 'Grenze';
@@ -34,7 +35,9 @@ body{
 
 .title--big{
     @include title(56px);
-
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3.6vw;
 }
 .title{
     @include title;
