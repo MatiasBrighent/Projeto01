@@ -1,5 +1,6 @@
 @use 'variaveis';
 @use 'header';
+@use 'about';
 
 @font-face{
     font-family: 'Grenze';
@@ -16,7 +17,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Grenze', serif;
+    font-family: 'federo', serif;
     list-style: none;
 }
 
@@ -27,6 +28,7 @@ body{
 
 @mixin title($fontSize: 40px){
     font-size: $fontSize;
+    font-family: 'Grenze', serif;
     font-weight: 700;
 }
 
@@ -43,27 +45,13 @@ body{
 }
 
 .link{
-    color: #1f3ec9ef;
+    color: #3867d6;
     text-decoration: none;
     transition: color 0.3s ease;
 
     &:hover{
         text-decoration: underline;
         cursor: pointer;
-    }
-}
-
-
-.about{
-
-    &__logo{
-        display: flex;
-        justify-content: space-around;
-
-        img{
-            width: 64px;
-            height: 64px;
-        }
     }
 }
 

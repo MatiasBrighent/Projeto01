@@ -16,7 +16,7 @@ function styles(){
         }).on('error', sass.logError))
         .pipe(cleanCss())
         .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest('./dist/css'));
+        .pipe(gulp.dest('./dist/styles'));
 }
 
 export function scripts() {
@@ -24,7 +24,7 @@ export function scripts() {
         .pipe(sourcemaps.init())
         .pipe(terser())
         .pipe(sourcemaps.write('.')) // gera map junto
-        .pipe(gulp.dest('./dist/js'));
+        .pipe(gulp.dest('./dist/scripts'));
 }
 
 // Tarefa para copiar imagens
