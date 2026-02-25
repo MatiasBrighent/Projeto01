@@ -12,10 +12,6 @@
 
     &__container{
 
-        .title--small{
-            margin-bottom: 8px;
-        }
-
         p{
             margin-bottom: 8px;
             font-weight: 400;
@@ -29,6 +25,11 @@
             img{
                 width: 64px;
                 height: 64px;
+
+                &:hover{
+                    transform: scale(1.1);
+                    transition: transform 0.3s ease;
+                }
             }
         }
     }

@@ -12,20 +12,23 @@
 
   ## Descrição do Projeto
   
-  Site criado como exércicio para pratica de HTML e CSS. Exércicio consistia em criar uma página de um tema a meu critério. O tema escolhido para o exércicio foi marcas automotivas alemas. O site não possui manipulação do DOM
+  Site criado como exércicio para pratica de HTML e CSS. O  objetivo do exércicio era criar uma página de um tema a meu critério. O tema escolhido para o exércicio foi marcas automotivas alemães.
 
   ## Status do Projeto
 
   > :construction: Projeto Finalizado :construction:
 
-  ### Acesso ao Projeto
+  Projeto atualizado em fev/2026
 
-  link para acessar a página: https://projeto01-henna.vercel.app
+  ## Acesso ao Projeto
 
-  ## Tecnologias utilizadas
+  ### Repositorio
 
-  ![icons8-html-5-48](https://github.com/user-attachments/assets/37957cb0-6ddc-46bd-aae8-0248cca9d8cb)
-  ![icons8-css-logo-48](https://github.com/user-attachments/assets/ad125d4f-9ffe-4c91-8af1-4e029fd561bf)
+  git clone https://github.com/MatiasBrighent/Projeto01?tab=readme-ov-file#acesso-ao-projeto
+  
+  ### Local Dev
+
+  npm install && npm run dev
 
   ## Pessoas Desenvolvedoras do Projeto
 
