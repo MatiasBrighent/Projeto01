@@ -34,9 +34,9 @@ export function scripts() {
 }
 
 // Tarefa para copiar imagens
-function images(){
-    return gulp.src('src/images/**/*.jpg/webp/png')// Seleciona todas as imagens
-        .pipe(gulp.dest('./dist/images'));
+function images() {
+    return gulp.src('src/images/**/*.{jpg,jpeg,png,webp,svg,gif}',{ encoding: false })
+        .pipe(gulp.dest('dist/images'));
 }
 
 //exporta a tarefa para ser executada via linha de comando
