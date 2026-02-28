@@ -7,6 +7,12 @@ import sourcemaps from 'gulp-sourcemaps';
 
 const sass = gulpSass(dartSass);
 
+// tarefa para copiar index.html para a pasta dist
+function copyHtml(){
+    return gulp.src('src/index.html')
+        .pipe(gulp.dest('./dist'));
+}
+
 // Tarefa para compilar SCSS em CSS
 function styles(){
     return gulp.src('src/styles/main.scss')
@@ -29,12 +35,12 @@ export function scripts() {
 
 // Tarefa para copiar imagens
 function images(){
-    return gulp.src('src/images/**/*', {nodir: true})// Seleciona todas as imagens
+    return gulp.src('src/images/**/*.jpg/webp/png')// Seleciona todas as imagens
         .pipe(gulp.dest('./dist/images'));
 }
 
 //exporta a tarefa para ser executada via linha de comando
-export default gulp.parallel(styles, scripts, images);
+export default gulp.parallel(copyHtml ,styles, scripts, images);
 
 export function watch(){
     gulp.watch('src/styles/*.scss', gulp.parallel(styles, scripts));
