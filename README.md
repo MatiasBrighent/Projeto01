@@ -1,4 +1,4 @@
-# Trindade Automotiva Alema 
+# Trindade Automotiva Alemã
 ![Static Badge](https://img.shields.io/badge/Status-conclu%C3%ADdo-green?style=plastic)
 ![Static Badge](https://img.shields.io/badge/Release-October-pistache?style=plastic)
 ![Static Badge](https://img.shields.io/badge/License-MIT%20license-orange?style=plastic)
