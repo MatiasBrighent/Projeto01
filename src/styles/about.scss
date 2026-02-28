@@ -1,26 +1,32 @@
 .about{
-    padding: 3.6vw;
-    min-height: 50vw;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2.6vw;
+    min-height: 30vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 16px;
 
-    img{
+    #brands-together{
         width: 100%;
         height: auto;
     }
 
     &__container{
-
+        
         p{
+            text-align: justify;
+            line-height: 1.6;
+            hyphens: auto;
             margin-bottom: 8px;
             font-weight: 400;
         }
 
         &__logo{
-        display: flex;
-        justify-content: space-around;
-        margin-top: 16px;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 16px;
 
             img{
                 width: 64px;
@@ -33,4 +39,11 @@
             }
         }
     }
+
+    @media screen and (max-width: 748px) {
+        grid-template-columns: 1fr;
+        width: 100%;
+        
+    }
+
 }

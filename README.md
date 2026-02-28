@@ -28,7 +28,7 @@
   
   ### Local Dev
 
-  npm install && npm run dev
+  npm install && npm run build
 
   ## Pessoas Desenvolvedoras do Projeto
 

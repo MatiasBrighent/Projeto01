@@ -17,19 +17,35 @@
             }
         }
     }
-
     &__container{
         display: flex;
         justify-content: space-around;
         align-items:baseline;
         padding-bottom: 8px;
-}
+    }
     &__nav{
         display: flex;
-
         &__itens{
             display: inline;
             padding-left: 16px;
         }
     }
+
+    @media (max-width: 768px) {
+        .header{
+            &__title{
+                color: #a5b1c2;
+            }
+            &__container {
+                flex-direction: column;
+                align-items: center;
+                gap: 8px;
+            }
+    
+            &__nav {
+                display: none;
+            }
+        }
+    
+}
 }

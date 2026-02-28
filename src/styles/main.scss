@@ -28,6 +28,7 @@ body{
     color: variaveis.$corTexto;
 }
 
+
 @mixin title($fontSize: 40px){
     font-size: $fontSize;
     font-family: 'Grenze', serif;
@@ -38,15 +39,27 @@ body{
     @include title(56px);
     display: flex;
     justify-content: center;
-    padding-bottom: 3.6vw;
+    padding-bottom: 2.6vw;
+
+    @media(max-width: 768px){
+        font-size: 40px;
+    }
 }
 .title{
     @include title;
     color: rgba(240, 248, 255, 0.904);
+
+    @media(max-width: 768px){
+        font-size: 32px;
+    }
 }
 .title--small{
     @include title(32px);
     margin-bottom: 8px;
+
+    @media(max-width: 768px){
+        font-size: 24px;
+    }
 }
 
 .link{
@@ -62,6 +75,6 @@ body{
 
 .footer{
     background: variaveis.$corHeader;
-    padding: 3.6vw;
+    padding: 1.6vw;
     color: #000000cc;
 }

@@ -1,6 +1,8 @@
 .brands{
-        padding: 3.6vw;
-        min-height: 50vw;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 2.6vw;
+        min-height: 30vw;
 
     &__container{
         display: grid;
@@ -10,12 +12,13 @@
         img{
             width: 100%;
             height: auto;
-            object-fit: contain;
         }
 
         &__description{
-            
             p{
+                text-align: justify;
+                line-height: 1.6;
+                hyphens: auto;
                 margin-bottom: 8px;
                 font-weight: 400;
             }
@@ -25,6 +28,12 @@
             justify-content: space-around;
             margin-top: 16px;
             }
+        }
+    }
+
+    @media screen and (max-width: 748px){
+        &__container{
+            grid-template-columns: 1fr;
         }
     }
 }
